@@ -31,8 +31,12 @@ modules:
       - htop
 
   - type: default-flatpaks
-    system:
-      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-      repo-name: flathub
+    configurations:
+      - scope: system
+        repo:
+          url: https://dl.flathub.org/repo/flathub.flatpakrepo
+          name: flathub
+          title: Flathub
+
 
   - type: signing
