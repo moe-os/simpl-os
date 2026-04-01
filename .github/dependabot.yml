@@ -5,4 +5,4 @@ updates:
     assignees:
       - MoeDevelops
     schedule:
-      interval: "daily"
+      interval: "weekly"
